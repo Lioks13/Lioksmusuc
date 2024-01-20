@@ -1,0 +1,55 @@
+body{
+    margin: 0; /* Убираем отступы по умолчанию у body */
+    padding: 0; /* Убираем внутренние отступы у body */
+    overflow: hidden; /* Предотвращаем появление полос прокрутки из-за фонового изображения */
+    background: url('./yellow-black.jpg') no-repeat center center fixed;
+    background-size: cover; /* Растягиваем изображение на весь экран */
+}
+h1{
+    font-size: 100px;
+    border: solid 2px;
+    padding: 10px 30px 10px 30px;
+    display: inline-block;
+    border-radius: 10px;
+    
+    
+}
+.text1{
+    margin-left: 100px;
+}
+h2{
+    margin-left: 100px;  
+}
+p{
+    margin-left: 100px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.cheneel{
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 20px;
+    
+} 
+.photo{
+    margin-left: 1500px;
+    border: solid 2px;
+    border-radius: 10px;
+}
+.youtube{
+    width: 100px;
+    border: solid 2px;
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(175, 175, 175);
+}
+.arrow{
+    width: 100px;
+    margin: 30px 0 0 120px;
+}
